@@ -8,11 +8,11 @@ body {
 }
 
 header {
-    background-color: #333; /* Dark background */
+    background-color: #f2f2f2; /* Light gray background */
 }
 
 header nav {
-    background-color: #333; /* Dark background for nav bar */
+    background-color: #f2f2f2; /* Light gray background for nav bar */
 }
 
 header nav ul {
@@ -28,7 +28,7 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: #fff; /* Light text color */
+    color: #333333; /* Dark text color */
 }
 
 /* Dark Mode Styles */
