@@ -142,28 +142,28 @@ footer {
 
 /* Dark Mode Styles */
 body.dark-mode {
-    background-color: #222;
-    color: #fff;
+    background-color: #222 !important;
+    color: #fff !important;
 }
 
 header.dark-mode {
-    background-color: #111;
-    color: #fff;
+    background-color: #111 !important;
+    color: #fff !important;
 }
 
 nav ul li a.dark-mode {
-    color: #fff;
+    color: #fff !important;
 }
 
 section.dark-mode {
-    background-color: #333;
+    background-color: #333 !important;
 }
 
 .portfolio-item.dark-mode {
-    background-color: #444;
+    background-color: #444 !important;
 }
 
 footer.dark-mode {
-    background-color: #111;
-    color: #fff;
+    background-color: #111 !important;
+    color: #fff !important;
 }
