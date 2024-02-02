@@ -80,29 +80,3 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
-
-/* Dark Mode Styles */
-body.dark-mode {
-    background-color: #222;
-    color: #fff;
-}
-
-header.dark-mode {
-    background-color: #111;
-}
-
-section.dark-mode {
-    background-color: #333;
-}
-
-section.dark-mode h2 {
-    color: #fff;
-}
-
-.portfolio-item.dark-mode {
-    background-color: #444;
-}
-
-footer.dark-mode {
-    background-color: #111;
-}
