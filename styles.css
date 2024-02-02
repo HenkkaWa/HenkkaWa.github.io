@@ -1,18 +1,18 @@
-/* Common styles */
+/* Light Mode Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
+    background-color: #ffffff; /* White background */
+    color: #333333; /* Dark text color */
 }
 
 header {
-    padding: 20px 0;
-    transition: background-color 0.3s ease; /* Add smooth transition */
+    background-color: #333; /* Dark background */
+}
+
+header nav {
+    background-color: #333; /* Dark background for nav bar */
 }
 
 header nav ul {
@@ -28,20 +28,6 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: #fff;
-}
-
-/* Light Mode Styles */
-body {
-    background-color: #ffffff; /* White background */
-    color: #333333; /* Dark text color */
-}
-
-header {
-    background-color: #333; /* Dark background */
-}
-
-header nav ul li a {
     color: #fff; /* Light text color */
 }
 
@@ -52,7 +38,11 @@ body.dark-mode {
 }
 
 header.dark-mode {
-    background-color: #000000; /* Darker background */
+    background-color: #111; /* Darker background */
+}
+
+header.dark-mode nav {
+    background-color: #111; /* Darker background for nav bar */
 }
 
 header.dark-mode nav ul li a {
