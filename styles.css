@@ -52,7 +52,7 @@ body.dark-mode {
 }
 
 header.dark-mode {
-    background-color: #111; /* Darker background */
+    background-color: #000000; /* Darker background */
 }
 
 header.dark-mode nav ul li a {
