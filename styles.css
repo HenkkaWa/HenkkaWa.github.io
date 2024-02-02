@@ -17,6 +17,7 @@ header {
 
 header h1 {
     margin: 0;
+    font-size: 36px;
 }
 
 nav ul {
@@ -32,6 +33,11 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ccc;
 }
 
 section {
@@ -40,10 +46,19 @@ section {
 
 section h2 {
     margin-bottom: 20px;
+    font-size: 24px;
 }
 
 .project {
     margin-bottom: 20px;
+}
+
+.project h3 {
+    font-size: 20px;
+}
+
+.project p {
+    font-size: 16px;
 }
 
 footer {
@@ -51,4 +66,8 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
+}
+
+footer p {
+    font-size: 14px;
 }
