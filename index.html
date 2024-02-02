@@ -20,26 +20,6 @@
                 </ul>
             </nav>
         </div>
-        <script>
-    // Function to set light mode
-    function setLightMode() {
-        document.querySelector('link[href="dark-mode.css"]').disabled = true; // Disable dark mode stylesheet
-        document.querySelector('link[href="light-mode.css"]').disabled = false; // Enable light mode stylesheet
-    }
-
-    // Function to set dark mode
-    function setDarkMode() {
-        document.querySelector('link[href="light-mode.css"]').disabled = true; // Disable light mode stylesheet
-        document.querySelector('link[href="dark-mode.css"]').disabled = false; // Enable dark mode stylesheet
-    }
-
-    // Event listeners for mode buttons
-    document.getElementById('light-mode').addEventListener('click', setLightMode);
-    document.getElementById('dark-mode').addEventListener('click', setDarkMode);
-</script>
-
-        <button id="light-mode-btn">Light Mode</button>
-        <button id="dark-mode-btn">Dark Mode</button>
 
     </header>
 
