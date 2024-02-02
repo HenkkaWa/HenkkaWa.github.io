@@ -12,6 +12,7 @@ body {
 
 header {
     padding: 20px 0;
+    transition: background-color 0.3s ease; /* Add smooth transition */
 }
 
 header nav ul {
