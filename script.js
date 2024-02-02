@@ -4,7 +4,7 @@ function switchToLightMode() {
     document.body.classList.remove('dark-mode');
     
     // Save the user's preference to local storage
-    localStorage.setItem('darkMode', false);
+    localStorage.setItem('theme', 'light');
 }
 
 // Event listener for light mode button
@@ -12,3 +12,4 @@ document.getElementById('light-mode-btn').addEventListener('click', function() {
     // Switch to light mode
     switchToLightMode();
 });
+

@@ -80,3 +80,62 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+/* Light Mode Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* White background */
+    color: #333333; /* Dark text color */
+}
+
+header {
+    background-color: #f2f2f2; /* Light gray background */
+    color: #333333; /* Dark text color */
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #333333; /* Dark text color */
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #f2f2f2; /* Light gray background */
+    color: #333333; /* Dark text color */
+    text-align: center;
+    padding: 20px 0;
+}
