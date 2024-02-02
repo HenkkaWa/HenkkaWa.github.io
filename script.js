@@ -28,6 +28,21 @@ document.getElementById('dark-mode-btn').addEventListener('click', function() {
     switchToDarkMode();
 });
 
+// Function to switch to dark mode
+function switchToDarkMode() {
+    // Add the 'dark-mode' class to the body
+    document.body.classList.add('dark-mode');
+    
+    // Save the user's preference to local storage
+    localStorage.setItem('theme', 'dark');
+}
+
+// Event listener for dark mode button
+document.getElementById('dark-mode-btn').addEventListener('click', function() {
+    // Switch to dark mode
+    switchToDarkMode();
+});
+
 // Function to switch to light mode
 function switchToLightMode() {
     // Remove the 'dark-mode' class from the body
