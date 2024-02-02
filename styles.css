@@ -1,28 +1,8 @@
+/* Common styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    overflow: hidden; /* Prevent scrolling due to fixed position animated background */
-}
-
-.animated-background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    background: linear-gradient(to right, #ff00cc, #3333ff);
-    animation: gradient-animation 10s infinite linear alternate;
-}
-
-@keyframes gradient-animation {
-    0% {
-        background-position: 0% 50%;
-    }
-    100% {
-        background-position: 100% 50%;
-    }
 }
 
 .container {
@@ -31,139 +11,49 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
     padding: 20px 0;
 }
 
-header h1 {
-    margin: 0;
-}
-
-nav ul {
+header nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-nav ul li {
+header nav ul li {
     display: inline;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
     margin-right: 20px;
 }
 
-section {
-    padding: 50px 0;
-}
-
-section h2 {
-    margin-bottom: 20px;
-}
-
-.portfolio-item {
-    margin-bottom: 30px;
-}
-
-.portfolio-item img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-}
-
-footer {
-    background-color: #333;
+header nav ul li a {
+    text-decoration: none;
     color: #fff;
-    text-align: center;
-    padding: 20px 0;
 }
+
 /* Light Mode Styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
     background-color: #ffffff; /* White background */
     color: #333333; /* Dark text color */
 }
 
 header {
-    background-color: #f2f2f2; /* Light gray background */
-    color: #333333; /* Dark text color */
-    padding: 20px 0;
+    background-color: #333; /* Dark background */
 }
 
-header h1 {
-    margin: 0;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
-    color: #333333; /* Dark text color */
-    text-decoration: none;
-    margin-right: 20px;
-}
-
-section {
-    padding: 50px 0;
-}
-
-section h2 {
-    margin-bottom: 20px;
-}
-
-.portfolio-item {
-    margin-bottom: 30px;
-}
-
-.portfolio-item img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-}
-
-footer {
-    background-color: #f2f2f2; /* Light gray background */
-    color: #333333; /* Dark text color */
-    text-align: center;
-    padding: 20px 0;
+header nav ul li a {
+    color: #fff; /* Light text color */
 }
 
 /* Dark Mode Styles */
 body.dark-mode {
-    background-color: #222 !important;
-    color: #fff !important;
+    background-color: #222; /* Dark background */
+    color: #fff; /* Light text color */
 }
 
 header.dark-mode {
-    background-color: #111 !important;
-    color: #fff !important;
+    background-color: #111; /* Darker background */
 }
 
-nav ul li a.dark-mode {
-    color: #fff !important;
-}
-
-section.dark-mode {
-    background-color: #333 !important;
-}
-
-.portfolio-item.dark-mode {
-    background-color: #444 !important;
-}
-
-footer.dark-mode {
-    background-color: #111 !important;
-    color: #fff !important;
+header.dark-mode nav ul li a {
+    color: #fff; /* Light text color */
 }
