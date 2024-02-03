@@ -29,9 +29,10 @@ nav li a:hover {
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: #8B8680;
-  color: #8B8680;;
+  color: #8B8680;
 }
 
-title {
-	font-family: 'Open Sans', sans-serif;
+/* Corrected the selector */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
 }
