@@ -9,18 +9,18 @@ body {
 
 /* Header styles */
 header {
-    background-color: #333; /* Dark header background color */
-    color: #ddd; /* Light header text color */
+    background-color: #000000; /* Dark header background color */
+    color: #FFFFFF; /* Light header text color */
     padding: 20px 0; /* Add padding to the header */
 }
 
 /* Navigation styles */
 nav ul li a {
-    color: #ddd; /* Light navigation link color */
+    color: #000000; /* Light navigation link color */
 }
 
 nav ul li a:hover {
-    color: #ccc; /* Slightly lighter color on hover */
+    color: #FFFFFF; /* Slightly lighter color on hover */
 }
 
 /* Section styles */
@@ -32,22 +32,22 @@ section {
 section h2 {
     margin-bottom: 20px; /* Add margin below section headings */
     font-size: 24px; /* Set font size for section headings */
-    color: #fff; /* Light section heading color */
+    color: #FFFFFF; /* Light section heading color */
 }
 
 /* Project styles */
 .project {
     margin-bottom: 20px; /* Add margin between projects */
-    background-color: #333; /* Dark project background color */
+    background-color: #000000; /* Dark project background color */
     padding: 20px; /* Add padding to projects */
     border-radius: 5px; /* Add border radius for rounded corners */
 }
 
 .project h3 {
     font-size: 20px; /* Set font size for project headings */
-    color: #fff; /* Light project heading color */
+    color: #FFFFFF; /* Light project heading color */
 }
 
 .project p {
     font-size: 16px; /* Set font size for project description */
-    color: #ddd; /* Light project
+    color: #FFFFFF; /* Light project
