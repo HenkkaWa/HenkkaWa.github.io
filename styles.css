@@ -16,7 +16,7 @@ header {
 
 /* Navigation styles */
 nav ul li a {
-    color: #000000; /* Light navigation link color */
+    color: #999999; /* Light navigation link color */
 }
 
 nav ul li a:hover {
