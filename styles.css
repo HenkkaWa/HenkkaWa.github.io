@@ -3,8 +3,8 @@ body {
     font-family: Arial, sans-serif; /* Specify font family */
     margin: 0; /* Remove default margins */
     padding: 0; /* Remove default padding */
-    background-color: #1a1a1a; /* Set dark background color */
-    color: #ddd; /* Set light text color */
+    background-color: #000000; /* Set dark background color */
+    color: #FFFFFF; /* Set light text color */
 }
 
 /* Header styles */
