@@ -1,73 +1,53 @@
+/* Global styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif; /* Specify font family */
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+    background-color: #1a1a1a; /* Set dark background color */
+    color: #ddd; /* Set light text color */
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
+/* Header styles */
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
+    background-color: #333; /* Dark header background color */
+    color: #fff; /* Light header text color */
+    padding: 20px 0; /* Add padding to the header */
 }
 
-header h1 {
-    margin: 0;
-    font-size: 36px;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
+/* Navigation styles */
 nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
+    color: #ddd; /* Light navigation link color */
 }
 
 nav ul li a:hover {
-    color: #ccc;
+    color: #ccc; /* Slightly lighter color on hover */
 }
 
+/* Section styles */
 section {
-    padding: 50px 0;
+    padding: 50px 0; /* Add padding to all sections */
+    background-color: #1a1a1a; /* Dark section background color */
 }
 
 section h2 {
-    margin-bottom: 20px;
-    font-size: 24px;
+    margin-bottom: 20px; /* Add margin below section headings */
+    font-size: 24px; /* Set font size for section headings */
+    color: #fff; /* Light section heading color */
 }
 
+/* Project styles */
 .project {
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* Add margin between projects */
+    background-color: #333; /* Dark project background color */
+    padding: 20px; /* Add padding to projects */
+    border-radius: 5px; /* Add border radius for rounded corners */
 }
 
 .project h3 {
-    font-size: 20px;
+    font-size: 20px; /* Set font size for project headings */
+    color: #fff; /* Light project heading color */
 }
 
 .project p {
-    font-size: 16px;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}
-
-footer p {
-    font-size: 14px;
-}
+    font-size: 16px; /* Set font size for project description */
+    color: #ddd; /* Light project
