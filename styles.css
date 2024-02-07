@@ -3,6 +3,16 @@ body {
     margin: 0;
     padding: 0;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+scene{
+    position: relative;
+    background: linear-gradient(#a6d8ff, #fff);
+}
 
 header {
     background-color: #333;
